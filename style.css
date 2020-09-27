@@ -1,0 +1,52 @@
+body {
+  background-image: url(images/maskr6.jpg); }
+  @media (min-width: 1000px) {
+    body {
+      background-image: url(images/maskr6.jpg);
+      background-size: cover;
+      background-repeat: no-repeat; } }
+
+.header {
+  background-color: #090707;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 5px; }
+
+.header {
+  position: fixed;
+  width: 100%; }
+
+.mylogo {
+  border-radius: 50%; }
+
+.myintro, .myintro-inverse, .myprojects {
+  text-align: center;
+  margin-top: 2rem;
+  background-color: #1d1c1c;
+  color: white;
+  margin-top: 3rem;
+  padding: 1rem;
+  width: 97%;
+  border-radius: 50% 0%; }
+
+header h2, header h1, header nav {
+  display: inline-block; }
+
+.myintro-inverse {
+  border-radius: 0% 50%; }
+
+.header a {
+  color: white;
+  padding: 5px;
+  border-left: 2px solid white; }
+
+.header {
+  height: 4rem; }
+  .header a:hover {
+    color: rgba(255, 255, 255, 0.3); }
+
+@media (max-width: 546px) {
+  .header {
+    height: 7rem; } }
+
+/*# sourceMappingURL=style.css.map */
