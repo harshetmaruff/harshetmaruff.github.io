@@ -35,6 +35,9 @@ header h2, header h1, header nav {
 .myintro-inverse {
   border-radius: 0% 50%; }
 
+.myprojects {
+  border-radius: 0%; }
+
 .header a {
   color: white;
   padding: 5px;
